@@ -1,12 +1,65 @@
 name: mcroguelite
-version: '1.1-SNAPSHOT'
+version: '1.3-SNAPSHOT'
 main: io.github.shortvincentman.mcroguelite.Mcroguelite
 api-version: '1.21'
 author: shortvincentman
+description: A Minecraft plugin inspired by Rogue Lineage with mana, climbing, spells, and more!
+
+softdepend:
+  - mcMMO
+  - Citizens
+  - ProtocolLib
+
 commands:
   mcroguelite:
     description: McRogueLite base command
     usage: /mcroguelite help
   spell:
-    description: Cast a mana spell
+    description: Cast a mana spell (legacy)
     usage: /spell <name>
+  givetome:
+    description: Give a spell tome
+    permission: mcroguelite.givetome
+    usage: /givetome [player] [tier]
+  learnspell:
+    description: Learn a spell into your tome
+    permission: mcroguelite.learnspell
+    usage: /learnspell <spell>
+  selectspell:
+    description: Select a spell from your tome
+    usage: /selectspell <spell>
+  forgetspell:
+    description: Remove a spell from your tome
+    usage: /forgetspell <spell>
+  givescroll:
+    description: Give a spell scroll
+    permission: mcroguelite.givescroll
+    usage: /givescroll <spell> [player]
+  teachspell:
+    description: Teach a spell to a player's tome
+    permission: mcroguelite.teachspell
+    usage: /teachspell <player> <spell>
+  unlockmana:
+    description: Unlock mana for a player
+    permission: mcroguelite.unlockmana
+    usage: /unlockmana [player]
+  spellgui:
+    description: Open the spell selection GUI
+    usage: /spellgui
+
+permissions:
+  mcroguelite.givetome:
+    description: Allows giving tomes
+    default: op
+  mcroguelite.learnspell:
+    description: Allows learning spells via command
+    default: op
+  mcroguelite.givescroll:
+    description: Allows giving spell scrolls
+    default: op
+  mcroguelite.teachspell:
+    description: Allows teaching spells to players
+    default: op
+  mcroguelite.unlockmana:
+    description: Allows unlocking mana for players
+    default: op

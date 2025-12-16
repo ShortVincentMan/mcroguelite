@@ -1,0 +1,30 @@
+# MCRogueLite Configuration
+
+# Mana Settings
+mana:
+  # If true, all players have mana unlocked automatically
+  # If false, players must be hit by a spell (like Ignis) to unlock mana
+  auto-unlock: true
+
+# Climbing Settings  
+climbing:
+  # Base mana drain per tick while climbing (0.015 = 1.5%)
+  base-drain: 0.015
+  # Drain reduction per climb level (0.03 = 3%)
+  level-drain-reduction: 0.03
+  # Maximum drain reduction cap (0.45 = 45%)
+  max-drain-reduction: 0.45
+
+# Mana Run Settings
+mana-run:
+  # Mana cost per tick (0.01 = 1%)
+  cost-per-tick: 0.01
+  # Minimum charge to activate (0.3 = 30%)
+  min-charge: 0.3
+  # Cooldown in milliseconds
+  cooldown-ms: 1000
+
+# Combat Settings
+combat:
+  # Maximum damage multiplier for mana punch at full charge
+  max-damage-multiplier: 1.5
