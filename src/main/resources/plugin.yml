@@ -1,0 +1,4 @@
+name: mcroguelite
+version: '1.0-SNAPSHOT'
+main: io.github.shortvincentman.mcroguelite.Mcroguelite
+api-version: '1.21'
