@@ -1,4 +1,12 @@
 name: mcroguelite
-version: '1.0-SNAPSHOT'
+version: '1.1-SNAPSHOT'
 main: io.github.shortvincentman.mcroguelite.Mcroguelite
 api-version: '1.21'
+author: shortvincentman
+commands:
+  mcroguelite:
+    description: McRogueLite base command
+    usage: /mcroguelite help
+  spell:
+    description: Cast a mana spell
+    usage: /spell <name>
