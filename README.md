@@ -3,16 +3,25 @@ INSPIRED BY ROGUE LINEAGE
 Basics:
 
 HOW TO UNLOCK MANA:
+
 Must be hit by a curse spell to become a mana user.
+
 Curse spells can only be used by OP
 
 HOW TO USE MANA
 Hold down crouch to charge mana.
+
+
 The following needs mana charged
+
 Train mana (Charge 25 times) to unlock mana run
+
 Train mana 75 times to unlock mana climb
+
   Charge mana and right click a wall to begin climbing
+
 Train mana 200 times to unlock mana dash
+
   Double tap crouch twice to mana dash
 
 
