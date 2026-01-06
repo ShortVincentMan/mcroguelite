@@ -23,19 +23,35 @@ Charge mana and cast at the appropriate mana bar percentage
 
 
 SPELLS:
+
 Armis: Disarms the user
+
 Celeritas: Speed boost
+
 Fimbulvetr: Summons ice meteor
+
 Gelidus: Ice AOE attack
+
 Hoppa: Leaping spell to launch user vertically
+
 Ignis: Casts a fireball
+
 Percutiens: Summons lightning
+
 Perflora: Heals in an AOE effect (Restores hunger bar/saturation bar and gives regeneration)
+
 Sagitta Sol: Summons a golden sunlight archer
+
 Scrupus: Summons a temporary sharp sword of stone
+
 Snap: Point at an area and cast to teleport at said area
+
 Snarvindur: Wind spell
+
 Tenebris: Cursed trap
+
 Trickstus: Inflict confusion
+
 Veil: Invisibility 
+
 Ward: Casts temporary resistance
